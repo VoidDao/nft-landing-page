@@ -8,7 +8,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #000000;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
@@ -54,6 +54,11 @@ header .container {
   align-items: center;
 }
 
+.PeekingVoid {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
 /* BUTTONS */
 
 .btn {
@@ -105,11 +110,11 @@ section {
 
 .countdown ul {
   display: flex;
-  gap: 2rem
+  gap: 3rem
 }
 .countdown .clock-item {
   list-style: none;
-  width: 70px;
+  width: 100px;
   height: auto;
 }
 .countdown .clock-item .count-number {
@@ -123,7 +128,7 @@ section {
   width: 100%;
   text-align: center;
   line-height: 1;
-  border-radius: 4px 4px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
@@ -152,6 +157,12 @@ section {
   margin-bottom: 2rem;
   text-align: center;
 }
+.countdown .PeekingVoid2 {
+  list-style: none;
+  width: 100px;
+  height: auto;
+}
+
 
 @media screen and (max-width: 768px) {
   .menu {
