@@ -28,6 +28,10 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 0% 125%, #be7efe 0, transparent 50%), 
+    radial-gradient(at 0% 0%, rgb(0, 0, 0) 0, transparent 50%);
 }
 
 .container {
@@ -161,6 +165,13 @@ section {
   list-style: none;
   width: 100px;
   height: auto;
+}
+
+.footer .footerContainer {
+  color: var(--accent-color);
+  font: var(--font-primary);
+  border-radius: 50%;
+  box-sizing: 1;
 }
 
 
